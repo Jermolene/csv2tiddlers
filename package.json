@@ -1,0 +1,17 @@
+{
+	"name": "csv2tiddlers",
+	"version": "0.0.1",
+	"description": "A hacky script to convert CSV files to tiddler JSON files for TiddlyWiki",
+	"author": "Jeremy Ruston <jeremy@jermolene.com>",
+	"scripts": {
+		"start": "node convert.js"
+	},
+	"main": "convert.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Jermolene/csv2tiddlers.org"
+	},
+	"dependencies": {
+		"csv": "0.4.5"
+	}
+}
